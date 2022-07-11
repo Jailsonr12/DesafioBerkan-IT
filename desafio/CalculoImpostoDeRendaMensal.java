@@ -66,10 +66,10 @@ public class CalculoImpostoDeRendaMensal {
 		// Saida
 
 		System.out.println("CALCULOS DOS IMPOSTOS \n");
-		System.out.printf("Desconto do imposto INSS: R$%.2f \n", imposto_inss);
-		System.out.printf("Desconto do imposto IRPF: R$%.2f \n", imposto_irpf);
-		System.out.printf("Desconto tota: R$%.2f \n", (imposto_irpf + imposto_inss));
-		System.out.printf("Salario final: R$%.2f \n ", salario - (imposto_irpf + imposto_inss));
+		System.out.printf("Desconto do imposto INSS R$%.2f \n", imposto_inss);
+		System.out.printf("Desconto do imposto IRPF R$%.2f \n", imposto_irpf);
+		System.out.printf("Desconto tota R$%.2f \n", (imposto_irpf + imposto_inss));
+		System.out.printf("Salario final R$%.2f \n ", salario - (imposto_irpf + imposto_inss));
 
 		teclado.close();
 	}
