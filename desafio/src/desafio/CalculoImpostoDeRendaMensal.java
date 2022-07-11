@@ -8,11 +8,13 @@ public class CalculoImpostoDeRendaMensal {
 	public static void main(String[] args) {
 
 		// Variável
+
 		String valor;
 		double salario = 0, imposto_inss = 0, salarioDesconto = 0, imposto_irpf = 0, dependente_desconto = 0;
 		int numero_depedente = 0;
 
 		// Entrada
+
 		Locale.setDefault(Locale.US);
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("------------------------------------");
