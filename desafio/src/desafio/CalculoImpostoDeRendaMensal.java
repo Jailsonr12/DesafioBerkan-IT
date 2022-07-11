@@ -55,7 +55,7 @@ public class CalculoImpostoDeRendaMensal {
 
 		if (salarioDesconto <= 1903.98) {
 			imposto_irpf = 0;
-		} else if ((salario - dependente_desconto) <= 2826.65) {
+		} else if ((salarioDesconto) <= 2826.65) {
 			imposto_irpf = (salarioDesconto * 0.075 - 142.80);
 
 		} else if (salarioDesconto <= 3751.05) {
