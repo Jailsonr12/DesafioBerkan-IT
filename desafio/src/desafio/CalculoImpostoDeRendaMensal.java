@@ -8,7 +8,7 @@ public class CalculoImpostoDeRendaMensal {
 	public static void main(String[] args) {
 
 		// Variável
-		String  valor;
+		String valor;
 		double salario = 0, imposto_inss = 0, salarioDesconto = 0, imposto_irpf = 0, dependente_desconto = 0;
 		int numero_depedente = 0;
 
@@ -21,8 +21,7 @@ public class CalculoImpostoDeRendaMensal {
 		System.out.print("Informe o salario: ");
 		valor = teclado.next().replace(",", ".");
 		salario = Double.parseDouble(valor);
-		
-		
+
 		while (salario <= 0) {
 			System.out.println("Imposto impossivel de calcular \nSalario dever ser superior a 0");
 			System.out.println("------------------------------------");
@@ -30,9 +29,9 @@ public class CalculoImpostoDeRendaMensal {
 			valor = teclado.next().replace(",", ".");
 			salario = Double.parseDouble(valor);
 		}
+
 		System.out.print("Informe quantidade de depedente: ");
 		numero_depedente = teclado.nextInt();
-		
 
 		// Processamento
 
